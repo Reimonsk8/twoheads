@@ -215,16 +215,16 @@ class App extends React.Component{
 
     return (
       <div className="App">
-          <div className="BrandRegistration">
-            <HamburgerMenu id="Menu" menuOption={this.handler} />
-            <Carrousel ref={this.myRefHome}/>
-            <AboutMe ref={this.myRefAbout}/>
-            <ShopGrid ref={this.myRefShop}/>
-            <Image/>
-            <ContactUs ref={this.myRefContactUs}/>
-            <p>© 2020, Two Heads Clothing.</p>
-          </div>
-          <TwoHeadsFooter/>
+        <HamburgerMenu id="Menu" menuOption={this.handler} />
+        <Carrousel ref={this.myRefHome}/>
+        <AboutMe ref={this.myRefAbout}/>
+        <ShopGrid ref={this.myRefShop}/>
+        <Image/>
+        <ContactUs ref={this.myRefContactUs}/>
+        <div className="BrandRegistration">
+          <p>© 2020, Two Heads Clothing.</p>
+        </div>
+        <TwoHeadsFooter/>
       </div>
     );
   }

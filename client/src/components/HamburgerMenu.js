@@ -1,5 +1,7 @@
 import React from 'react';
 import './HamburgerMenu.css'
+import mainlogo from "../imgs/Logo Two Heads (Blanco).png" 
+import { Container, Image } from 'semantic-ui-react';
 
 export default class HamburgerMenu extends React.Component{
  constructor(props) {
@@ -16,22 +18,19 @@ export default class HamburgerMenu extends React.Component{
 
   render(){
     return(
-      <nav id="hamburger" role="navigation">
-      <div id="menuToggle">
-        <input type="checkbox" />
-        
-        <span></span>
-        <span></span> 
-        <span></span>
-        
-        <ul id="menu">
-          <a><li onClick={() => this.setOption("Home")}>Home</li></a>
-          <a><li onClick={() => this.setOption("Shop")}>Shop</li></a>
-          <a><li onClick={() => this.setOption("About")}>About</li></a>
-          <a><li onClick={() => this.setOption("Contact Us")}>Contact Us</li></a>
-        </ul>
-      </div>
-    </nav>
+      <Container id="menubar">
+        <Image id="mainlogo" centerd="true" src={mainlogo}></Image>
+        <p id="stretch"></p>
+        <nav>
+            <ul>
+              <li class="nav-item" onClick={() => this.setOption("Home")}>Home</li>
+              <li class="nav-item" onClick={() => this.setOption("Shop")}>Shop</li>
+              <li class="nav-item" onClick={() => this.setOption("About")}>About</li>
+              <li class="nav-item" onClick={() => this.setOption("Contact Us")}>Contact Us</li>
+            </ul>
+        </nav>
+      </Container>
+
     )
   }
 }
