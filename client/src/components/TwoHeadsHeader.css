@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Sangha';
-	src: local('Sangha'),url(../fonts/Sangha.ttf) format('truetype');
+	src: local('Sangha'),url(../fonts/Sangha.ttf) format('opentype');
 }
 /*font-family: 'Montserrat', sans-serif; @import url('https://fonts.googleapis.com/css?family=Montserrat:100');*/
 html, body{
@@ -34,17 +34,17 @@ html, body{
 	text-align: center;
 }
 
-
 /* Our mixin positions a copy of our text directly on our existing text, while also setting content to the appropriate text set in the data-text attribute. */
 .glitch {
 	font-family: 'Sangha';
 	position: relative;
 	color: white;
-	font-size: 4em;
+	font-size: 8vw;
 	letter-spacing: 0.5em;
 /* Animation provies a slight random skew. Check bottom of doc for more information on how to random skew. */
 	animation: glitch-skew 1s infinite linear alternate-reverse;
 }
+
  .glitch::before {
 	 content: attr(data-text);
 	 position: absolute;
@@ -57,7 +57,7 @@ html, body{
 	/* Creates an initial clip for our glitch. This works in a typical top,right,bottom,left fashion and creates a mask to only show a certain part of the glitch at a time. */
 	 clip: rect(44px, 450px, 56px, 0);
 	/* Runs our glitch-anim defined below to run in a 5s loop, infinitely, with an alternating animation to keep things fresh. */
-	 animation: glitch-anim 5s infinite linear alternate-reverse;
+	 animation: glitch-anim 15s infinite linear alternate-reverse;
 }
  .glitch::after {
 	 content: attr(data-text);
