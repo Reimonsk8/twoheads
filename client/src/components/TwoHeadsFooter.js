@@ -8,21 +8,21 @@ import '../fonts/Sangha.ttf'
 const TwoHeadsFooter = ({name}) => {
     return(
       <Segment id="footer">
-        <Image src={logoH} size='tiny' floated='left'/>
-        <div class="flex-center">
+        <Image id="mini-logo" src={logoH} size='tiny' floated='left'/>
+        <div className="flex-center">
           <a href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer">   
-            <i class="fa fa-twitter fa-2x icon-3d"/>
+            <i className="fa fa-twitter fa-2x icon-3d"/>
           </a>
           <a href="https://www.facebook.com/twoheadsclothing/" target="_blank" rel="noopener noreferrer">
-            <i class="fa fa-facebook fa-2x icon-3d"/>
+            <i className="fa fa-facebook fa-2x icon-3d"/>
           </a>
           <a href="https://www.instagram.com/twoheadsclothing/?hl=es-la" target="_blank" rel="noopener noreferrer">
-            <i class="fa fa-instagram fa-2x icon-3d"/>
+            <i className="fa fa-instagram fa-2x icon-3d"/>
           </a>
           <a href="twoheadsclothing@outlook.com" target="_blank" rel="noopener noreferrer">
-            <i class="fa fa-whatsapp fa-2x icon-3d"/>
+            <i className="fa fa-whatsapp fa-2x icon-3d"/>
           </a>
-          <span class="stretch"></span>
+          <span className="stretch"></span>
         </div>
       </Segment>
     )

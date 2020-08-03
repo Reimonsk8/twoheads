@@ -1,11 +1,13 @@
 import React from 'react'
-import {Image} from 'semantic-ui-react'
+import './ShopItem.css'
+import {Image, Header} from 'semantic-ui-react'
 
-const Shopitem = ({name, img}) =>{
+const Shopitem = ({name, img, price}) =>{
     return(
-        <div>
+        <div className="Items">
             <Image src={img} size='medium' centered ></Image>
             <p>{name}</p>
+            <Header inverted textAlign="centered" size="small">{price}</Header>
         </div>
     )
 }

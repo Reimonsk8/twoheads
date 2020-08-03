@@ -12,10 +12,13 @@
     height:200px; 
     left:0px; 
     right:0px;
-    display: inline; */
-    overflow: hidden;
-    margin-top: 1vh;
+    
     background-image: url("https://media0.giphy.com/media/nizkfSsoo0Rb2/200w.webp?cid=ecf05e4742f8f38d8fd0aef871e4f95d0733dfc8f13df545&rid=200w.webp");
+    display: inline; 
+    background-color:  #f4f5f7;
+    */
+    overflow: hidden;
+    background-color:  #000000;
 }
 .flex-center {
     overflow: auto;
@@ -41,11 +44,16 @@
     align-items: right;*/
 }
 
+#mini-logo{
+    padding-top: 10px;
+}
+
 .icon-3d {
     width: calc(25% - 15px);
     -webkit-animation: icon3d 200ms 10;
     animation: icon3d 200ms 10;
-    color: #fff;
+    color: #777;
+    padding: 15px;
 }
 .icon-3d:hover {
     -webkit-animation: icon3d 200ms infinite;

@@ -1,0 +1,33 @@
+#Background{
+    text-align: center;
+    margin: 0;
+    padding-top: 10vh;
+    width: 100%;
+    height: 100vh;
+    /*
+    -webkit-box-align:center;
+    -webkit-box-pack:center;
+    display:-webkit-box;
+    */
+}
+
+#ImageImpostor{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient( rgba(0,0,0,.99), rgba(0,0,0,.25), rgba(0,0,0,.99)) , url('../imgs/two_heads_background.jpg');
+    background-position: center;
+}
+
+.ui image img {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    opacity: 0.5;
+}
+
+#Background p{
+    margin:auto;
+    max-width: 600px;
+    font-size: large;
+}

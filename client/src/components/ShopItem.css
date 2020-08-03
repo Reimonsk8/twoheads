@@ -1,0 +1,13 @@
+.Items{
+    background: None;
+}
+
+.Items p{
+    font-size: x-large;
+}
+
+.Items sub{
+    align-items: center;
+    font-size: medium;
+    text-align: center;
+}
