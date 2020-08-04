@@ -1,6 +1,6 @@
 import React from 'react'
 import './Carrousel.css'
-import logo from '../imgs/Two Heads Logo Vertical (Blanco).png'
+//import logo from '../imgs/Two Heads Logo Vertical (Blanco).png' <img id="logo" alt="" src={logo} />
 import img1 from '../imgs/img1.jpg'
 import img2 from '../imgs/img2.jpg'
 import img3 from '../imgs/img5.jpg'
@@ -11,11 +11,11 @@ import img7 from '../imgs/img9.JPG'
 import img8 from '../imgs/img3.jpg'
 import img9 from '../imgs/img4.jpg'
 
+
 const Carrousel = React.forwardRef((props, ref) => {
   return(
     <div ref={ref} className="container">
       <div className="wrapper">
-        <img id="logo" alt="" src={logo} />
         <div className="slider">
           <div className="slide-image active" data-item="1">
             <img alt="" src={img1} />

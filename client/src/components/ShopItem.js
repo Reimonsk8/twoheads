@@ -7,7 +7,7 @@ const Shopitem = ({name, img, price}) =>{
         <div className="Items">
             <Image src={img} size='medium' centered ></Image>
             <p>{name}</p>
-            <Header inverted textAlign="centered" size="small">{price}</Header>
+            <Header textAlign="centered" size="small">{price}</Header>
         </div>
     )
 }

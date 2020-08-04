@@ -7,3 +7,27 @@
     background-position: center;
     */
 }
+.icon-3d {
+    color: black;
+    margin-left: 10vw;
+    padding: 15px;
+    padding: 2vw;
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+      -webkit-transition: background .5s;
+    transition: background .5s
+}
+.icon-3d:hover {
+    color: gray;
+    cursor: pointer;
+}
+.flex-center {
+    border: 0px;
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    overflow: hidden;
+    color: black;
+    text-align: center;
+}

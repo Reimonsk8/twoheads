@@ -6,7 +6,6 @@ import ShopGrid from './components/ShopGrid.js'
 import HamburgerMenu from './components/HamburgerMenu.js'
 import Carrousel from './components/Carrousel.js'
 import ContactUs from './components/ContactUs.js'
-import TwoHeadsFooter from './components/TwoHeadsFooter';
 import './fonts/Sangha.ttf'
 import './fonts/Blatant.otf'
 
@@ -224,7 +223,6 @@ class App extends React.Component{
         <div className="BrandRegistration">
           <p>© 2020, Two Heads Clothing.</p>
         </div>
-        <TwoHeadsFooter/>
       </div>
     );
   }
