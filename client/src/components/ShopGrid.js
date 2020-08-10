@@ -10,10 +10,7 @@ import item4 from '../imgs/1_f116da56-74fd-42d8-a9e5-f1f1dda99fc9_360x.png'
 import item5 from '../imgs/1_772d3f0d-a6ae-4956-a889-1a82e217e766_360x.png'
 import item6 from '../imgs/1_61ac2f2f-344d-4dc5-8e1d-cd628034c232_360x.png'
 
-const ShopGrid = React.forwardRef((props, ref) => {
-    return(
-      <div ref={ref} id="ShopBackground">
-        <h1>SHOP CATALOG</h1>
+/*
         <Table id="TableGrid" centered="true">
           <Table.Body>
             <Table.Row>
@@ -27,7 +24,20 @@ const ShopGrid = React.forwardRef((props, ref) => {
               <Table.Cell><ShopItem name="Black Beanie" img={item6} price={'$ 400.00 MXN'}/></Table.Cell>
             </Table.Row>
           </Table.Body>
-        </Table>
+*/
+
+const ShopGrid = React.forwardRef((props, ref) => {
+    return(
+      <div ref={ref} id="ShopBackground">
+        <h1>Catálogo de Productos</h1>
+        <div id="TableGrid">
+          <ShopItem name="Oatmeal Triblend Tigers T-Shirt" img={item1} price={'$ 450.00 MXN'}/>
+          <ShopItem name="Black Heather Okame T-Shirt" img={item2} price={'$ 400.00 MXN '}/>
+          <ShopItem name="Skulls Marron T-Shirt" img={item3} price={'$ 400.00 MXN'}/>
+          <ShopItem name="Black Strapback Hat" img={item4} price={'$ 400.00 MXN'}/>
+          <ShopItem name="Minimal Gray Hoodie" img={item5}price={'$ 600.00 MXN'}/>
+          <ShopItem name="Black Beanie" img={item6} price={'$ 400.00 MXN'}/>
+        </div>
         <p> 可用 / 🐅🐅 可用 / 🧢 可用 / 💀💀 可用 / 🎎 可用 🐍 </p>
       </div>
     )

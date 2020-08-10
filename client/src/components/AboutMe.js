@@ -1,16 +1,26 @@
 import React from 'react'
 import './AboutMe.css'
 import { Container, Image } from 'semantic-ui-react';
-import banner from '../imgs/two_heads_background.jpg'
+import banner from '../imgs/About.svg'
 
-//<Image src={banner}/>
-const msg = "Two heads is a lifestyle clothing brand with exclusive limited edition designs. With the intention that our clients feel unique knowing that few people have the same clothes as them. We are a clothing brand that offers a concept of designs focused mainly on Japanese oriental culture. We want to encourage people to be unique, trying not to follow the normal tastes that the crowd follows."
+//<Image src={banner}/>      <div id="ImageImpostor"/>
+const msg1 = "Somos una marca de ropa independiente con diseños exclusivos de edición limitada, con sede en Ensenada, Baja California, México. "
+const msg2 = "En Two Heads Clothing ofrecemos un concepto urbano de diseños centrados principalmente en la cultura oriental japonesa. "
+const msg3 = "Queremos que te sientas único sabiendo que pocas personas tendrán la misma ropa que tú, garantizando calidad y originalidad en tu guardarropa."
 const AboutMe = React.forwardRef((props, ref) =>{
     return(
-        <div ref={ref} id="Background" >
-            <h1>ABOUT</h1>
-            <p>{msg}</p>
-            <div id="ImageImpostor"/>
+        <div ref={ref} id="Background">
+            <div id="divcontainer"> 
+                <div id="divleft">
+                    <Image id="banner" src={banner} size="tiny" centered></Image>
+                </div>
+                <div id="divright">
+                    <h1>NUESTRA HISTORIA</h1>
+                    <p>{msg1}</p>
+                    <p>{msg2}</p>
+                    <p>{msg3}</p>
+                </div>
+            </div>
         </div>
     )    
 });

@@ -1,17 +1,17 @@
 #ShopBackground{
-    margin-top: 13vh;
-    padding-top: 13vh;
+    margin-top: 15vh;
+    padding-top: 15vh;
     background: None;
 }
-
 .items{
     background: None;
 }
-
 #TableGrid{
-	background: None;
+    background: None;
+    display: grid;
+    grid-gap: 1vw;
+    grid-template-columns: repeat(auto-fit, minmax(150px,600px));
 }
-
 .ui celled table{
     width: 100vh;
 }

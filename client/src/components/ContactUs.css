@@ -1,4 +1,5 @@
-#BackgroundContact{
+.BackgroundContact{
+    padding-top: 4vh;
     margin: 0;
     width: 100%;
     height: 85vh;
@@ -9,25 +10,137 @@
 }
 .icon-3d {
     color: black;
-    margin-left: 10vw;
+    /*
+    margin-left: 100%;*/
     padding: 15px;
-    padding: 2vw;
     display: block;
-    flex: 0 1 auto; /* Default */
+    /*flex: 0 1 auto;  Default */
     list-style-type: none;
       -webkit-transition: background .5s;
     transition: background .5s
 }
 .icon-3d:hover {
     color: gray;
+    opacity: 0.5;
     cursor: pointer;
 }
+#ImageImpostor{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient( rgba(245,245,245,.20), rgba(245,245,245,.25), rgba(245,245,245,.20)) , url('../imgs/Two Heads Logo Vertical (Negro).svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.BackgroundContact:hover #ImageImpostor{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient( rgba(245,245,245,.90), rgba(245,245,245,.95), rgba(245,245,245,.90)) , url('../imgs/Two Heads Logo Vertical (Negro).svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 5vh;
+}
 .flex-center {
-    border: 0px;
     display: flex;
-    align-items: stretch; /* Default */
+    justify-content: center;
+    /*
+    border: 0px;
+
+    align-items: stretch;
     justify-content: space-between;
     overflow: hidden;
+    */
     color: black;
     text-align: center;
 }
+#politics p{
+    font-size: 1.4vh;
+    text-align: justify;  
+}
+#politics{
+    opacity: 0;
+    display: none;
+}
+.BackgroundContact:hover #politics{
+    padding: 2vw;   
+    margin: auto;
+    max-width: 600px;  
+    opacity: 1;
+    display: block;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Bounce To Bottom */
+.hvr-bounce-to-bottom {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 1.5s;
+    transition-duration: 1.5s;
+  }
+  .hvr-bounce-to-bottom:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ececec;
+    opacity: 0.75;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 1.5s;
+    transition-duration: 1.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-bounce-to-bottom:hover, .hvr-bounce-to-bottom:focus, .hvr-bounce-to-bottom:active {
+    color: white;
+  }
+  .hvr-bounce-to-bottom:hover:before, .hvr-bounce-to-bottom:focus:before, .hvr-bounce-to-bottom:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  }

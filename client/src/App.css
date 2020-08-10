@@ -5,7 +5,12 @@
 	src: local('Blatant'),url(./fonts/Blatant.otf) format('opentype');
 }
 *{
+  text-align: justify;
   font-family: 'Blatant';
+}
+.App{
+  width: 100vw;
+  /**/
 }
 p{
   text-align: center;
