@@ -20,7 +20,9 @@ p{
 }
 
 h1{
-  width: 100%;
   color: #1a1a1a;
   text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: #e0e0e0 1px 1px 0, 2px 2px 2px rgba(206,89,55,0);
 }

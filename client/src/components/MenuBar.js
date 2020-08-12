@@ -22,8 +22,8 @@ export default class MenuBar extends React.Component{
         <Image className="mainlogo" centered src={mainlogo}></Image>
         <ul className="menus">
           <li className="hvr-underline-from-center" onClick={() => this.setOption("Home")}>Inicio </li>
-          <li className="hvr-underline-from-center" onClick={() => this.setOption("Shop")}>Catálogo</li>
           <li className="hvr-underline-from-center" onClick={() => this.setOption("About")}>Conócenos</li>
+          <li className="hvr-underline-from-center" onClick={() => this.setOption("Shop")}>Catálogo</li>
           <li className="hvr-underline-from-center" onClick={() => this.setOption("Contact Us")}>Contáctanos</li>
         </ul>
       </Segment>

@@ -38,7 +38,8 @@ const ShopGrid = React.forwardRef((props, ref) => {
           <ShopItem name="Minimal Gray Hoodie" img={item5}price={'$ 600.00 MXN'}/>
           <ShopItem name="Black Beanie" img={item6} price={'$ 400.00 MXN'}/>
         </div>
-        <p> 可用 / 🐅🐅 可用 / 🧢 可用 / 💀💀 可用 / 🎎 可用 🐍 </p>
+        <br></br>
+        <p>可用</p>
       </div>
     )
   }

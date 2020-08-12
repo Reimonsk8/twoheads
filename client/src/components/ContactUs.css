@@ -31,13 +31,25 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+ 
 .BackgroundContact:hover #ImageImpostor{
     width: 100%;
     height: 50vh;
-    background: linear-gradient( rgba(245,245,245,.90), rgba(245,245,245,.95), rgba(245,245,245,.90)) , url('../imgs/Two Heads Logo Vertical (Negro).svg');
+    background: url('../imgs/Two Heads Logo Vertical (Blanco).svg');
+    /*
+    background-image: url('../imgs/Two Heads Logo Vertical (Negro).svg');
+    filter: contrast(1%), blur(1px);
+    all:unset;
+    */
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: 5vh;
+    transition: all 1s;
+    -webkit-animation: fadeout 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadeout 3s; /* Firefox < 16 */
+     -ms-animation: fadeout 3s; /* Internet Explorer */
+      -o-animation: fadeout 3s; /* Opera < 12.1 */
+         animation: fadeout 3s;
 }
 .flex-center {
     display: flex;
@@ -66,11 +78,11 @@
     max-width: 600px;  
     opacity: 1;
     display: block;
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s; /* Firefox < 16 */
-     -ms-animation: fadein 2s; /* Internet Explorer */
-      -o-animation: fadein 2s; /* Opera < 12.1 */
-         animation: fadein 2s;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+     -ms-animation: fadein 3s; /* Internet Explorer */
+      -o-animation: fadein 3s; /* Opera < 12.1 */
+         animation: fadein 3s;
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -111,8 +123,8 @@
     position: relative;
     -webkit-transition-property: color;
     transition-property: color;
-    -webkit-transition-duration: 1.5s;
-    transition-duration: 1.5s;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
   }
   .hvr-bounce-to-bottom:before {
     content: "";
@@ -130,8 +142,8 @@
     transform-origin: 50% 0;
     -webkit-transition-property: transform;
     transition-property: transform;
-    -webkit-transition-duration: 1.5s;
-    transition-duration: 1.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
   }

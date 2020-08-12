@@ -10,7 +10,7 @@
     background: None;
     display: grid;
     grid-gap: 1vw;
-    grid-template-columns: repeat(auto-fit, minmax(150px,600px));
+    grid-template-columns: repeat(auto-fit, minmax(280px,1500px));
 }
 .ui celled table{
     width: 100vh;
