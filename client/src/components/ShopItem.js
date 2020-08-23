@@ -1,11 +1,22 @@
 import React from 'react'
-import {Image} from 'semantic-ui-react'
+import './ShopItem.css'
+import {Image, Header} from 'semantic-ui-react'
 
-const Shopitem = ({name, img}) =>{
+const Shopitem = ({name, img, imgback, price}) =>{
+
+    let imgchange
+    if (imgback != null){
+        imgchange = <Image id="backside" src={imgback} size='medium' centered ></Image>;
+    }else{
+        imgchange = <Image id="backside" src={img} size='medium' centered ></Image>;
+    }
+
     return(
-        <div>
-            <Image src={img} size='medium' centered ></Image>
-            <p>{name}</p>
+        <div className="hvr-shutter-out-vertical">
+            <Image id="frontside" src={img} size='medium' centered ></Image>
+            {imgchange}
+            <p className="text" >{name}</p>
+            <Header className="text" size="small">{price}</Header>
         </div>
     )
 }

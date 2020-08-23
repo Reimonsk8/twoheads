@@ -1,0 +1,36 @@
+#Background{
+    display: flex;
+    margin-top: 15vh;
+    padding-top: 15vh;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    -webkit-box-align:center;
+    -webkit-box-pack:center;
+    display:-webkit-box;
+}
+#divcontainer{
+    display: flex;
+    width: 100%;
+    align-items: center
+}
+#divleft{
+    width: 50vw;
+}
+#divright{
+    width: 50vw;
+}
+#banner{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    max-width: 600px;
+}
+#Background p{
+    text-align: justify;
+    margin:auto;
+    font-size: 2vh;
+    padding: 2.5vh;
+    max-width: 600px;
+}
