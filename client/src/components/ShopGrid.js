@@ -14,7 +14,7 @@ import item1back from '../imgs/TieDye Espalda.png'
 import item2front from '../imgs/CorazonTriste Frente.png'
 import item2back from '../imgs/CorazonTriste Espalda.png'
 
-/*
+/*可用
         <Table id="TableGrid" centered="true">
           <Table.Body>
             <Table.Row>
@@ -28,6 +28,13 @@ import item2back from '../imgs/CorazonTriste Espalda.png'
               <Table.Cell><ShopItem name="Black Beanie" img={item6} price={'$ 400.00 MXN'}/></Table.Cell>
             </Table.Row>
           </Table.Body>
+
+          <ShopItem name="Oatmeal Triblend Tigers T-Shirt" img={item1} price={'$ 450.00 MXN'}/>
+          <ShopItem name="Black Heather Okame T-Shirt" img={item2} price={'$ 400.00 MXN '}/>
+          <ShopItem name="Skulls Marron T-Shirt" img={item3} price={'$ 400.00 MXN'}/>
+          <ShopItem name="Black Strapback Hat" img={item4} price={'$ 400.00 MXN'}/>
+          <ShopItem name="Minimal Gray Hoodie" img={item5}price={'$ 600.00 MXN'}/>
+          <ShopItem name="Black Beanie" img={item6} price={'$ 400.00 MXN'}/>
 */
 
 const ShopGrid = React.forwardRef((props, ref) => {
@@ -37,15 +44,9 @@ const ShopGrid = React.forwardRef((props, ref) => {
         <div id="TableGrid">
           <ShopItem name="TyeDye T-Shirt" img={item1front} imgback={item1back} price={'$ 450.00 MXN'}/>
           <ShopItem name="Sad Hearth T-Shirt" img={item2front} imgback={item2back} price={'$ 400.00 MXN '}/>
-          <ShopItem name="Oatmeal Triblend Tigers T-Shirt" img={item1} price={'$ 450.00 MXN'}/>
-          <ShopItem name="Black Heather Okame T-Shirt" img={item2} price={'$ 400.00 MXN '}/>
-          <ShopItem name="Skulls Marron T-Shirt" img={item3} price={'$ 400.00 MXN'}/>
-          <ShopItem name="Black Strapback Hat" img={item4} price={'$ 400.00 MXN'}/>
-          <ShopItem name="Minimal Gray Hoodie" img={item5}price={'$ 600.00 MXN'}/>
-          <ShopItem name="Black Beanie" img={item6} price={'$ 400.00 MXN'}/>
+
+          
         </div>
-        <br></br>
-        <p>可用</p>
       </div>
     )
   }

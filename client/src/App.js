@@ -42,16 +42,6 @@ class App extends React.Component{
   }
 
   componentDidMount(){
-    /*
-    //fix home image
-    let homeImage = document.querySelector('div[data-item="1"] img')
-    let wrapper = document.querySelector("div.wrapper")
-    let diference = ((wrapper.offsetHeight - homeImage.height) / 2) - 100
-    diference = diference.toString() + 'px';
-    homeImage.style.marginTop = diference;
-    console.log(diference, homeImage)
-    console.log(React.version, "app component mounted");
-    */
     class Slider {
       constructor(settings) {
         this.setting = settings;
@@ -150,6 +140,7 @@ class App extends React.Component{
             this.next();
           }, this.setting.delay);
         }
+        this.showSlide(1)
       }
       next() {
         if (this.current !== this.items.length) {
@@ -180,12 +171,14 @@ class App extends React.Component{
             .classList.add("active");
           /*
           let activeImage = document.querySelector(".slide-image.active img")
-          let wrapper = document.querySelector("div.wrapper")
-          let diference = ((wrapper.offsetHeight - activeImage.height) / 2) - 0
-          diference = diference.toString() + 'px';
-          //console.log(diference, " -> imageH= ", activeImage.offsetHeight, "wrapperH=", wrapper.offsetHeight)
-          activeImage.style.marginTop = diference;
-          */
+          let wrapper = document.querySelector("div.container")
+          if(wrapper.offsetHeight > activeImage.height)
+          {
+            let diference = ((wrapper.offsetHeight - activeImage.height) / 2) 
+            diference = diference.toString() + 'px';
+            console.log(diference, " -> imageH= ", activeImage.offsetHeight, "wrapperH=", wrapper.offsetHeight)
+            activeImage.style.marginTop = diference;
+          }*/
           if (this.setting.dots) {
             document.querySelectorAll(".dot").forEach(function(dot) {
               dot.classList.remove("active");
