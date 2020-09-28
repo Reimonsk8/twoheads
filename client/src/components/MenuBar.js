@@ -1,6 +1,6 @@
 import React from 'react';
 import './MenuBar.css'
-import mainlogo from "../imgs/Logo Two Heads (Blanco).png" 
+import mainlogo from "../imgs/Logo Two Heads (Blanco).svg" 
 import { Segment, Image } from 'semantic-ui-react';
 
 export default class MenuBar extends React.Component{

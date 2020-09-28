@@ -36,7 +36,9 @@ const Carrousel = React.forwardRef((props, ref) => {
     <div ref={ref} className="container">
       <div className="wrapper">
         <div className="slider">
-          {content}
+          <div className="vfill">
+            {content}
+          </div>
           <div className="action-btns">
               <button className="btn prev-btn">&lsaquo;</button>
               <button className="btn next-btn">&rsaquo;</button>

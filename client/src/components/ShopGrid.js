@@ -44,8 +44,6 @@ const ShopGrid = React.forwardRef((props, ref) => {
         <div id="TableGrid">
           <ShopItem name="TyeDye T-Shirt" img={item1front} imgback={item1back} price={'$ 450.00 MXN'}/>
           <ShopItem name="Sad Hearth T-Shirt" img={item2front} imgback={item2back} price={'$ 400.00 MXN '}/>
-
-          
         </div>
       </div>
     )
