@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dbeac4e7278e951f54ffebaf4eee6aea",
+    "revision": "cbf697ad673012128b762529fb1d3e45",
     "url": "/index.html"
   },
   {
-    "revision": "5801b088712d842931ed",
+    "revision": "44d1078a86d8df12b61c",
     "url": "/static/css/2.7df41cd5.chunk.css"
   },
   {
-    "revision": "da50c00c3acda6feb5d4",
-    "url": "/static/css/main.28331f74.chunk.css"
+    "revision": "8493395749b91cfbaa23",
+    "url": "/static/css/main.5b6e23b8.chunk.css"
   },
   {
-    "revision": "5801b088712d842931ed",
-    "url": "/static/js/2.cf9c84e8.chunk.js"
+    "revision": "44d1078a86d8df12b61c",
+    "url": "/static/js/2.62a5807a.chunk.js"
   },
   {
     "revision": "4d47ffde3dc69784e8e23fd910817ef8",
-    "url": "/static/js/2.cf9c84e8.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.62a5807a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "da50c00c3acda6feb5d4",
-    "url": "/static/js/main.dfcb7930.chunk.js"
+    "revision": "8493395749b91cfbaa23",
+    "url": "/static/js/main.7ce5cfac.chunk.js"
   },
   {
     "revision": "befac381359b19df5206",
@@ -52,48 +52,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/About.dccdb2f3.svg"
   },
   {
-    "revision": "d2e047cb14e2dfaacfc4a4e80d22e403",
-    "url": "/static/media/Blatant.d2e047cb.otf"
+    "revision": "64579f2117d19a3c239ab56a6b8f43fa",
+    "url": "/static/media/CorazonTriste Espalda.64579f21.png"
   },
   {
-    "revision": "40ea4a862a6920d32090299ed172081a",
-    "url": "/static/media/CorazonTriste Espalda.40ea4a86.png"
-  },
-  {
-    "revision": "ab7a16e25c577a6c6e2a449af3924a07",
-    "url": "/static/media/CorazonTriste Frente.ab7a16e2.png"
-  },
-  {
-    "revision": "3cdf858a3452ae0fff879d9d214d238c",
-    "url": "/static/media/Geomanist-Regular.3cdf858a.otf"
-  },
-  {
-    "revision": "8faba3db5e37f5f5e3bb9e10cb6a74aa",
-    "url": "/static/media/GothamBlackRegular.8faba3db.ttf"
+    "revision": "002d806e3917cb52ddde20eb91c08975",
+    "url": "/static/media/CorazonTriste Frente.002d806e.png"
   },
   {
     "revision": "3a6275b780fecb32e5631fdc6674a64c",
     "url": "/static/media/IMG_8473_540x.3a6275b7.png"
   },
   {
-    "revision": "5ab427221286c365bdecc9e1a8180d1c",
-    "url": "/static/media/Logo Two Heads (Blanco).5ab42722.png"
+    "revision": "f3afc36d62113683a779beefe9e69762",
+    "url": "/static/media/Logo Two Heads (Blanco).f3afc36d.svg"
   },
   {
-    "revision": "3b7df81cbe2d4ddb3631f0b4872abd9a",
-    "url": "/static/media/Sangha.3b7df81c.ttf"
+    "revision": "be02fe667eff0bc70b013e0f9f08935e",
+    "url": "/static/media/TieDye Espalda.be02fe66.png"
   },
   {
-    "revision": "77e356e516e1246f6edd87c9bbd0eb9a",
-    "url": "/static/media/TieDye Espalda.77e356e5.png"
+    "revision": "f1477a66650574415fa52124fa822b38",
+    "url": "/static/media/TieDye Frente.f1477a66.png"
   },
   {
-    "revision": "76c463db8c0c436ed4ca3851652f7314",
-    "url": "/static/media/TieDye Frente.76c463db.png"
-  },
-  {
-    "revision": "f356465285e4ad39c5713ea7c4d743a1",
-    "url": "/static/media/Two Heads Logo Vertical (Blanco).f3564652.svg"
+    "revision": "f30f3cf590e8130de6ea3325a12a449d",
+    "url": "/static/media/Two Heads Logo Vertical (Blanco).f30f3cf5.svg"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
@@ -180,20 +164,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/outline-icons.ef60a4f6.woff"
   },
   {
-    "revision": "2c943670a3dded481bac66b91ad73dfd",
-    "url": "/static/media/s1.2c943670.jpeg"
+    "revision": "a7444a53c9f00a203ac6d73ca7f95f1e",
+    "url": "/static/media/s1.a7444a53.jpeg"
   },
   {
-    "revision": "249f9d42450977cee5b8363d8ed6eea2",
-    "url": "/static/media/s2.249f9d42.jpeg"
+    "revision": "4d0c4b324ae89ea612eec95b13a58ffd",
+    "url": "/static/media/s2.4d0c4b32.jpeg"
   },
   {
-    "revision": "dcb47759bc7dfb1c8e0ab4a3a7203a3b",
-    "url": "/static/media/s3.dcb47759.jpeg"
+    "revision": "e4410cbf41ab2dfe60aa7c4e9763c7e4",
+    "url": "/static/media/s3.e4410cbf.jpeg"
   },
   {
-    "revision": "64a34f99be9ec4ccc303abafc58c8a6c",
-    "url": "/static/media/s4.64a34f99.jpeg"
+    "revision": "af0dd82bc24b7ad3921370c1eeed78b3",
+    "url": "/static/media/s4.af0dd82b.jpeg"
   },
   {
     "revision": "68f454703c80b40cc5010ca3ff6d49d8",

@@ -11,6 +11,7 @@ const ContactUs = React.forwardRef((props, ref) =>{
     return(
         <div ref={ref} className="BackgroundContact">
             
+            <div className="hvr-bounce-to-bottom">
             <h1>Contáctanos</h1>
             <div className="flex-center">
             <a href="https://www.facebook.com/twoheadsclothing/" target="_blank" rel="noopener noreferrer">
@@ -22,7 +23,6 @@ const ContactUs = React.forwardRef((props, ref) =>{
             </div>
             <span className="stretch"></span>
             <p>Two Heads Co.</p>
-            <div className="hvr-bounce-to-bottom">
                 <p>💵💳 Envíos a todo México 📦</p>
                 <div id="ImageImpostor" >
                     <div id="politics" >

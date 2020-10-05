@@ -1,19 +1,47 @@
-.text{
-  font-family: 'GothamBlackRegular';
+.text1{
+  position: absolute;
   display: none;
 }
+.text2{
+  font-size: smaller;
+  position: absolute;
+  display: none;
+  padding: calc(5vh + 3vw);
+}
+.hvr-shutter-out-vertical:hover .text2{
+  font-size: calc(1vh + 2vw);
+  
+  color:  rgb(167, 160, 120);
+}
 
-.hvr-shutter-out-vertical:hover .text{
+.hvr-shutter-out-vertical:hover .text1{
+  font-size: calc(2vh + 3vw);
+  text-shadow: darkgray 1px 1px 0, 1px 1px 1px rgba(206,89,55,0);
+  color:  rgb(69, 69, 69);
+}
+
+.itemcontainer img{
+  z-index: -1;
+  position: relative;
+  width: 100vw;
+  max-width: 750px;
+}
+
+.itemcontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hvr-shutter-out-vertical:hover p{
+  font-family: 'GothamBlackRegular';
   display: inline-block;
   width: 100%; 
+  align-self: center;
   text-align: center; 
-  text-shadow: darkgray 1px 1px 0, 1px 1px 1px rgba(206,89,55,0);
-  font-weight: bold;
-  color: black; 
-  position: absolute;
   font-size: 150%;
   top: calc(50% - 1em);
-  left: 0px;
   -webkit-transition-property: transform;
   transition-property: transform;
   -webkit-transition-duration: 0.2s;
@@ -72,7 +100,8 @@
     transition-timing-function: ease-out;
   }
   .hvr-shutter-out-vertical:hover, .hvr-shutter-out-vertical:focus, .hvr-shutter-out-vertical:active {
-    color: black;
+    color:  rgb(71, 71, 71);
+
   }
   .hvr-shutter-out-vertical:hover:before, .hvr-shutter-out-vertical:focus:before, .hvr-shutter-out-vertical:active:before {
     -webkit-transform: scaleY(1);

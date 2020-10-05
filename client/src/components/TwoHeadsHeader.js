@@ -1,7 +1,6 @@
 import React from 'react'
 import './TwoHeadsHeader.css'
 import {Segment, Header} from 'semantic-ui-react'
-import '../fonts/Sangha.ttf'
 
 //segment glitch background
 const TwoHeadsHeader = ({name}) => {

@@ -2,7 +2,6 @@ import React from 'react'
 import './TwoHeadsFooter.css'
 import {Segment, Image} from 'semantic-ui-react'
 import logoH from '../imgs/Logo Two Heads (Blanco).svg'
-import '../fonts/Sangha.ttf'
 
 //segment glitch background
 const TwoHeadsFooter = ({name}) => {

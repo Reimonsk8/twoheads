@@ -6,17 +6,19 @@ const Shopitem = ({name, img, imgback, price}) =>{
 
     let imgchange
     if (imgback != null){
-        imgchange = <Image id="backside" src={imgback} size='medium' centered ></Image>;
+        imgchange = <img id="backside" src={imgback}/>;
     }else{
-        imgchange = <Image id="backside" src={img} size='medium' centered ></Image>;
+        imgchange = <img id="backside" src={img} />;
     }
 
     return(
         <div className="hvr-shutter-out-vertical">
-            <Image id="frontside" src={img} size='medium' centered ></Image>
-            {imgchange}
-            <p className="text" >{name}</p>
-            <Header className="text" size="small">{price}</Header>
+            <div className="itemcontainer">
+                <img id="frontside" src={img}/>
+                {imgchange}
+                <p className="text1">{name}</p>
+                <p className="text2" >{price}</p>
+            </div>
         </div>
     )
 }

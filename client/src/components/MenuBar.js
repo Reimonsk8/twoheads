@@ -21,10 +21,10 @@ export default class MenuBar extends React.Component{
       <Segment id="menubar" >
         <Image className="mainlogo" centered src={mainlogo}></Image>
         <ul className="menus">
-          <li className="hvr-underline-from-center" onClick={() => this.setOption("Home")}>Inicio </li>
-          <li className="hvr-underline-from-center" onClick={() => this.setOption("About")}>Conócenos</li>
-          <li className="hvr-underline-from-center" onClick={() => this.setOption("Shop")}>Catálogo</li>
-          <li className="hvr-underline-from-center" onClick={() => this.setOption("Contact Us")}>Contáctanos</li>
+          <li className="hvr-underline-from-center" onClick={() => this.setOption("Home")}>{'Inicio'.toUpperCase()}</li>
+          <li className="hvr-underline-from-center" onClick={() => this.setOption("About")}>{'Conócenos'.toUpperCase()}</li>
+          <li className="hvr-underline-from-center" onClick={() => this.setOption("Shop")}>{"Catálogo".toUpperCase()}</li>
+          <li className="hvr-underline-from-center" onClick={() => this.setOption("Contact Us")}>{"Contáctanos".toUpperCase()}</li>
         </ul>
       </Segment>
 

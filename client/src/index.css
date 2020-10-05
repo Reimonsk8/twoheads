@@ -8,3 +8,28 @@ body {
 html {
   scroll-behavior: smooth;  
 }
+
+@font-face {
+  font-family: 'Geomanist-Regular';
+  src: url(/fonts/Geomanist-Regular.otf) format('opentype');
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face { 
+  font-family: 'GothamBlackRegular';
+  src: url(/fonts/GothamBlackRegular.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Sangha';
+  src: url(/fonts/Sangha.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Blatant';
+  src: url(/fonts/Blatant.otf) format('opentype');
+  font-style: normal;
+  font-weight: 100;
+}

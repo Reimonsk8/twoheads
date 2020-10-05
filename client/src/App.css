@@ -1,16 +1,3 @@
-@font-face {
-  font-family: 'Geomanist-Regular';
-	src: local('Geomanist-Regular'),url(./fonts/Geomanist-Regular.otf) format('opentype');
-  
-  font-family: 'GothamBlackRegular';
-	src: local('GothamBlackRegular'),url(./fonts/GothamBlackRegular.ttf) format('truetype');
-
-  font-family: 'Sangha';
-	src: local('Sangha'),url(./fonts/Sangha.ttf) format('truetype');
-
-  font-family: 'Blatant';
-	src: local('Blatant'),url(./fonts/Blatant.otf) format('opentype');
-}
 *{
   text-align: justify;
 }

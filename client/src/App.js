@@ -6,8 +6,6 @@ import ShopGrid from './components/ShopGrid.js'
 import MenuBar from './components/MenuBar.js'
 import Carrousel from './components/Carrousel.js'
 import ContactUs from './components/ContactUs.js'
-import './fonts/Sangha.ttf'
-import './fonts/Blatant.otf'
 
 class App extends React.Component{
   constructor(props) {
